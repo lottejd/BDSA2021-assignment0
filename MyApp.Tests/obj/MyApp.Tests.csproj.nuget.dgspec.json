@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\MyApp.Tests.csproj": {}
+    "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\MyApp.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\MyApp.Tests.csproj": {
+    "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\MyApp.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\MyApp.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\MyApp.Tests.csproj",
         "projectName": "MyApp.Tests",
-        "projectPath": "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\MyApp.Tests.csproj",
+        "projectPath": "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\MyApp.Tests.csproj",
         "packagesPath": "C:\\Users\\lotte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\obj\\",
+        "outputPath": "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lotte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -19,12 +19,15 @@
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj": {
-                "projectPath": "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj"
+              "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj": {
+                "projectPath": "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj"
               }
             }
           }
@@ -79,14 +82,14 @@
         }
       }
     },
-    "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj": {
+    "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj",
+        "projectUniqueName": "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj",
+        "projectPath": "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\MyApp.csproj",
         "packagesPath": "C:\\Users\\lotte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\obj\\",
+        "outputPath": "C:\\Users\\lotte\\OneDrive\\Skrivebord\\ITU\\BDSA\\MyApp\\MyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lotte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -94,6 +97,9 @@
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
