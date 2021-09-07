@@ -6,6 +6,7 @@ namespace MyApp.Tests
 {
     public class ProgramTests
     {
+        /*
         [Fact]
         public void Main_prints_hello_world()
         {
@@ -21,19 +22,23 @@ namespace MyApp.Tests
             Assert.Equal("Hello World!",output);
 
         }
+        */
 
         [Theory]
         [InlineData(4)] //First rule
         [InlineData(400)] //Third rule
-        public void IsLeapYear_returns_true_on_correct_years(int year)
+        public void IsLeapYear_writes_yay_on_correct_years(int year)
         {
             //Arrange
+            var writer = new StringWriter();
+            Console.SetOut(writer);
 
             //Act
-            var output = Program.IsLeapYear(year);
+            Program.IsLeapYear(year);
 
             //Assert
-            Assert.True(output);
+            var output = writer.GetStringBuilder().ToString().Trim();
+            Assert.Equal("yay",output);
             
         }
 
@@ -41,15 +46,18 @@ namespace MyApp.Tests
         [Theory]
         [InlineData(1)] //First rule
         [InlineData(100)] //Second rule
-        public void IsLeapYear_returns_false_on_incorrect_years(int year)
+        public void IsLeapYear_writes_nay_on_incorrect_years(int year)
         {
             //Arrange
+            var writer = new StringWriter();
+            Console.SetOut(writer);
 
             //Act
-            var output = Program.IsLeapYear(year);
+            Program.IsLeapYear(year);
 
             //Assert
-            Assert.False(output);
+            var output = writer.GetStringBuilder().ToString().Trim();
+            Assert.Equal("nay",output);
             
         }
     }
